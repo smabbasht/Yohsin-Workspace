@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace yohsin_workspace
 {
-    public partial class Form1 : Form
+    public partial class startup_screen : Form
     {
-        public Form1()
+        public startup_screen()
         {
             InitializeComponent();
+        }
+
+        private void startup_screen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

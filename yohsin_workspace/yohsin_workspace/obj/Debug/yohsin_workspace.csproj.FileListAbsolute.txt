@@ -3,9 +3,9 @@ C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\bin\Debug\yohsin_workspace.pdb
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.csproj.AssemblyReference.cache
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.csproj.SuggestedBindingRedirects.cache
-C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.Form1.resources
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.Properties.Resources.resources
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.csproj.GenerateResource.cache
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.csproj.CoreCompileInputs.cache
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.exe
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.pdb
+C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.startup_screen.resources
