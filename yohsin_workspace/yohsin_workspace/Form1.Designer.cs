@@ -34,6 +34,7 @@
             this.register = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
@@ -41,7 +42,7 @@
             // login
             // 
             this.login.BackColor = System.Drawing.Color.Wheat;
-            this.login.Location = new System.Drawing.Point(182, 365);
+            this.login.Location = new System.Drawing.Point(182, 295);
             this.login.Margin = new System.Windows.Forms.Padding(2);
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(74, 24);
@@ -53,22 +54,31 @@
             // 
             this.register.BackColor = System.Drawing.Color.Wheat;
             this.register.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.register.Location = new System.Drawing.Point(84, 367);
+            this.register.Location = new System.Drawing.Point(84, 295);
             this.register.Margin = new System.Windows.Forms.Padding(2);
             this.register.Name = "register";
             this.register.Size = new System.Drawing.Size(77, 22);
             this.register.TabIndex = 1;
             this.register.Text = "Register";
             this.register.UseVisualStyleBackColor = false;
+            this.register.Click += new System.EventHandler(this.register_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::yohsin_workspace.Properties.Resources.yohsin_logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(84, 152);
+            this.pictureBox1.Location = new System.Drawing.Point(84, 88);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(172, 163);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Wheat;
+            this.label1.Location = new System.Drawing.Point(121, 276);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 4);
+            this.label1.TabIndex = 3;
             // 
             // startup_screen
             // 
@@ -77,6 +87,7 @@
             this.BackgroundImage = global::yohsin_workspace.Properties.Resources.startup_bg_greenery;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(748, 510);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.register);
             this.Controls.Add(this.login);
@@ -98,6 +109,7 @@
         private System.Windows.Forms.Button register;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.BindingSource bindingSource1;
+        private System.Windows.Forms.Label label1;
     }
 }
 

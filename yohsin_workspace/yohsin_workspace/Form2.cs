@@ -10,19 +10,24 @@ using System.Windows.Forms;
 
 namespace yohsin_workspace
 {
-    public partial class startup_screen : Form
+    public partial class login_screen : Form
     {
-        public startup_screen()
+        public login_screen()
         {
             InitializeComponent();
         }
 
-        private void startup_screen_Load(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void register_Click(object sender, EventArgs e)
+        private void login_screen_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
