@@ -1,6 +1,6 @@
 ﻿namespace yohsin_workspace
 {
-    partial class Form3
+    partial class registration_screen
     {
         /// <summary>
         /// Required designer variable.
@@ -28,36 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(registration_screen));
             this.lblAccountType = new System.Windows.Forms.Label();
-            this.lblPassword = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblRegistrationTitle = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cboxAccountType = new System.Windows.Forms.ComboBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lblUsername = new System.Windows.Forms.Label();
+            this.lblFullName = new System.Windows.Forms.Label();
+            this.lblPersonalDetails = new System.Windows.Forms.Label();
+            this.lblAccountDetails = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lblAccountIBAN = new System.Windows.Forms.Label();
+            this.lblBankName = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblAccountType
             // 
             this.lblAccountType.BackColor = System.Drawing.Color.Wheat;
-            this.lblAccountType.Location = new System.Drawing.Point(36, 404);
+            this.lblAccountType.Location = new System.Drawing.Point(36, 420);
             this.lblAccountType.Name = "lblAccountType";
             this.lblAccountType.Size = new System.Drawing.Size(80, 18);
             this.lblAccountType.TabIndex = 19;
             this.lblAccountType.Text = "Account Type:";
             // 
-            // lblPassword
+            // lblEmail
             // 
-            this.lblPassword.BackColor = System.Drawing.Color.Wheat;
-            this.lblPassword.Location = new System.Drawing.Point(36, 355);
-            this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(80, 18);
-            this.lblPassword.TabIndex = 18;
-            this.lblPassword.Text = "Password";
+            this.lblEmail.BackColor = System.Drawing.Color.Wheat;
+            this.lblEmail.Location = new System.Drawing.Point(36, 358);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(80, 18);
+            this.lblEmail.TabIndex = 18;
+            this.lblEmail.Text = "Email";
+            this.lblEmail.Click += new System.EventHandler(this.lblPassword_Click);
             // 
             // label1
             // 
@@ -90,50 +99,128 @@
             // cboxAccountType
             // 
             this.cboxAccountType.FormattingEnabled = true;
-            this.cboxAccountType.Location = new System.Drawing.Point(123, 401);
+            this.cboxAccountType.Location = new System.Drawing.Point(123, 417);
             this.cboxAccountType.Name = "cboxAccountType";
             this.cboxAccountType.Size = new System.Drawing.Size(130, 21);
             this.cboxAccountType.TabIndex = 14;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(123, 352);
+            this.textBox2.Location = new System.Drawing.Point(123, 357);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(130, 20);
             this.textBox2.TabIndex = 13;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(123, 302);
+            this.textBox1.Location = new System.Drawing.Point(123, 326);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(130, 20);
             this.textBox1.TabIndex = 12;
             // 
-            // lblUsername
+            // lblFullName
             // 
-            this.lblUsername.BackColor = System.Drawing.Color.Wheat;
-            this.lblUsername.Location = new System.Drawing.Point(36, 303);
-            this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(80, 18);
-            this.lblUsername.TabIndex = 11;
-            this.lblUsername.Text = "Username:";
+            this.lblFullName.BackColor = System.Drawing.Color.Wheat;
+            this.lblFullName.Location = new System.Drawing.Point(36, 327);
+            this.lblFullName.Name = "lblFullName";
+            this.lblFullName.Size = new System.Drawing.Size(80, 18);
+            this.lblFullName.TabIndex = 11;
+            this.lblFullName.Text = "Full Name:";
+            this.lblFullName.Click += new System.EventHandler(this.lblUsername_Click);
             // 
-            // Form3
+            // lblPersonalDetails
+            // 
+            this.lblPersonalDetails.BackColor = System.Drawing.Color.Wheat;
+            this.lblPersonalDetails.Location = new System.Drawing.Point(96, 291);
+            this.lblPersonalDetails.Name = "lblPersonalDetails";
+            this.lblPersonalDetails.Size = new System.Drawing.Size(88, 19);
+            this.lblPersonalDetails.TabIndex = 20;
+            this.lblPersonalDetails.Text = "Personal Details:";
+            // 
+            // lblAccountDetails
+            // 
+            this.lblAccountDetails.BackColor = System.Drawing.Color.Wheat;
+            this.lblAccountDetails.Location = new System.Drawing.Point(96, 460);
+            this.lblAccountDetails.Name = "lblAccountDetails";
+            this.lblAccountDetails.Size = new System.Drawing.Size(88, 19);
+            this.lblAccountDetails.TabIndex = 21;
+            this.lblAccountDetails.Text = "Account Details:";
+            // 
+            // lblPassword
+            // 
+            this.lblPassword.BackColor = System.Drawing.Color.Wheat;
+            this.lblPassword.Location = new System.Drawing.Point(36, 390);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(80, 18);
+            this.lblPassword.TabIndex = 22;
+            this.lblPassword.Text = "Password";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(123, 387);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(130, 20);
+            this.textBox3.TabIndex = 23;
+            // 
+            // lblAccountIBAN
+            // 
+            this.lblAccountIBAN.BackColor = System.Drawing.Color.Wheat;
+            this.lblAccountIBAN.Location = new System.Drawing.Point(37, 520);
+            this.lblAccountIBAN.Name = "lblAccountIBAN";
+            this.lblAccountIBAN.Size = new System.Drawing.Size(80, 18);
+            this.lblAccountIBAN.TabIndex = 24;
+            this.lblAccountIBAN.Text = "Account IBAN";
+            // 
+            // lblBankName
+            // 
+            this.lblBankName.BackColor = System.Drawing.Color.Wheat;
+            this.lblBankName.Location = new System.Drawing.Point(36, 492);
+            this.lblBankName.Name = "lblBankName";
+            this.lblBankName.Size = new System.Drawing.Size(80, 18);
+            this.lblBankName.TabIndex = 25;
+            this.lblBankName.Text = "Bank Name";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(123, 519);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(130, 20);
+            this.textBox4.TabIndex = 26;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(123, 491);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(130, 20);
+            this.textBox5.TabIndex = 27;
+            // 
+            // registration_screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(889, 585);
-            this.Controls.Add(this.lblAccountType);
+            this.BackgroundImage = global::yohsin_workspace.Properties.Resources.startup_bg_greenery;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(866, 577);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.lblBankName);
+            this.Controls.Add(this.lblAccountIBAN);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.lblPassword);
+            this.Controls.Add(this.lblAccountDetails);
+            this.Controls.Add(this.lblPersonalDetails);
+            this.Controls.Add(this.lblAccountType);
+            this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblRegistrationTitle);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cboxAccountType);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.lblUsername);
-            this.Name = "Form3";
-            this.Text = "Form3";
+            this.Controls.Add(this.lblFullName);
+            this.Name = "registration_screen";
+            this.Text = "Registration Screen";
+            this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -143,13 +230,21 @@
         #endregion
 
         private System.Windows.Forms.Label lblAccountType;
-        private System.Windows.Forms.Label lblPassword;
+        private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblRegistrationTitle;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox cboxAccountType;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.Label lblFullName;
+        private System.Windows.Forms.Label lblPersonalDetails;
+        private System.Windows.Forms.Label lblAccountDetails;
+        private System.Windows.Forms.Label lblPassword;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lblAccountIBAN;
+        private System.Windows.Forms.Label lblBankName;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }

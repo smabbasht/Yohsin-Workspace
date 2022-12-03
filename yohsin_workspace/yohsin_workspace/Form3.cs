@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace yohsin_workspace
 {
-    public partial class Form3 : Form
+    public partial class registration_screen : Form
     {
-        public Form3()
+        public registration_screen()
         {
             InitializeComponent();
+        }
+
+        private void lblUsername_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblPassword_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
