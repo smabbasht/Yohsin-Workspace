@@ -27,5 +27,10 @@ namespace yohsin_workspace
             MessageBox.Show("Issue Raised Successfully \nAn agent will soon resolve the issue!");
             this.Close();
         }
+
+        private void lblFullName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

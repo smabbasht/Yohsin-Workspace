@@ -88,7 +88,7 @@
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(360, 22);
+            this.pictureBox1.Location = new System.Drawing.Point(354, 22);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(214, 196);
@@ -113,6 +113,7 @@
             this.lblFullName.TabIndex = 56;
             this.lblFullName.Text = "Description:";
             this.lblFullName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblFullName.Click += new System.EventHandler(this.lblFullName_Click);
             // 
             // label1
             // 

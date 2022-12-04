@@ -102,6 +102,7 @@
             this.btnMyOrders.TabIndex = 19;
             this.btnMyOrders.Text = "My Orders";
             this.btnMyOrders.UseVisualStyleBackColor = false;
+            this.btnMyOrders.Click += new System.EventHandler(this.btnMyOrders_Click);
             // 
             // btnSearchExperts
             // 

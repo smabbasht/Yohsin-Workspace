@@ -16,5 +16,10 @@ namespace yohsin_workspace.Resources
         {
             InitializeComponent();
         }
+
+        private void btnMyOrders_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
