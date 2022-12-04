@@ -37,6 +37,16 @@
             this.lblDashboard = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.name = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -168,11 +178,99 @@
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(603, 269);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(323, 22);
+            this.textBox1.TabIndex = 21;
+            // 
+            // name
+            // 
+            this.name.BackColor = System.Drawing.Color.Wheat;
+            this.name.Location = new System.Drawing.Point(392, 145);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(160, 25);
+            this.name.TabIndex = 20;
+            this.name.Text = "Skill Category:";
+            this.name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Wheat;
+            this.label1.Location = new System.Drawing.Point(392, 211);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(160, 25);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Hourly Rate (in $):";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(603, 212);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(323, 22);
+            this.textBox2.TabIndex = 23;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Wheat;
+            this.label2.Location = new System.Drawing.Point(392, 276);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(160, 25);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "Availability (hrs/week)";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(603, 145);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 24);
+            this.comboBox1.TabIndex = 25;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.Wheat;
+            this.label3.Location = new System.Drawing.Point(392, 329);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(160, 25);
+            this.label3.TabIndex = 26;
+            this.label3.Text = "Min Orders Completed";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(603, 327);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(323, 22);
+            this.textBox3.TabIndex = 27;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Wheat;
+            this.button1.Location = new System.Drawing.Point(789, 374);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(137, 35);
+            this.button1.TabIndex = 28;
+            this.button1.Text = "Search";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // search_experts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1129, 622);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.name);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
@@ -183,6 +281,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -197,5 +296,15 @@
         private System.Windows.Forms.Label horizontalDivider;
         private System.Windows.Forms.Label lblDashboard;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label name;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button button1;
     }
 }
