@@ -15,6 +15,15 @@ namespace yohsin_workspace
         public search_experts()
         {
             InitializeComponent();
+            comboBox1.Items.Add("Data Analysis");
+            comboBox1.Items.Add("Web Development");
+            comboBox1.Items.Add("App Development");
+            comboBox1.Items.Add("Writing");
+            comboBox1.Items.Add("UI/UX Design");
+            comboBox1.Items.Add("Graphic Design");
+            comboBox1.Items.Add("Financial Consultancy");
+            comboBox1.Items.Add("Book Review");
+            comboBox1.SelectedIndex = 3;
         }
 
         //private void btnSearchExperts_Click(object sender, EventArgs e)
@@ -68,6 +77,11 @@ namespace yohsin_workspace
         }
 
         private void btnSearchExperts_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

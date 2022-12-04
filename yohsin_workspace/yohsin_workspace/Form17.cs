@@ -24,7 +24,15 @@ namespace yohsin_workspace
 
         private void freelancer_complete_profile_Load(object sender, EventArgs e)
         {
-
+            comboBox1.Items.Add("Data Analysis");
+            comboBox1.Items.Add("Web Development");
+            comboBox1.Items.Add("App Development");
+            comboBox1.Items.Add("Writing");
+            comboBox1.Items.Add("UI/UX Design");
+            comboBox1.Items.Add("Graphic Design");
+            comboBox1.Items.Add("Financial Consultancy");
+            comboBox1.Items.Add("Book Review");
+            comboBox1.SelectedIndex = 3;
         }
 
         private void lblBankName_Click(object sender, EventArgs e)
@@ -44,6 +52,11 @@ namespace yohsin_workspace
             registration_screen regScreen = new registration_screen();
             regScreen.Show();
             this.Hide();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
