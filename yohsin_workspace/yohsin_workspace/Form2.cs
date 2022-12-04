@@ -64,7 +64,9 @@ namespace yohsin_workspace
         // yohsin logo
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            startup_screen startScreen = new startup_screen();
+            startScreen.Show();
+            this.Hide();
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)

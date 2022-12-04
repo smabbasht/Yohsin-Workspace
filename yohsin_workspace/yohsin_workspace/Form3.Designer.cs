@@ -97,17 +97,18 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(71, 36);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(227, 204);
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // cboxAccountType
             // 
             this.cboxAccountType.FormattingEnabled = true;
             this.cboxAccountType.Location = new System.Drawing.Point(164, 513);
-            this.cboxAccountType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboxAccountType.Margin = new System.Windows.Forms.Padding(4);
             this.cboxAccountType.Name = "cboxAccountType";
             this.cboxAccountType.Size = new System.Drawing.Size(172, 24);
             this.cboxAccountType.TabIndex = 14;
@@ -116,7 +117,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(164, 439);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(172, 22);
             this.textBox2.TabIndex = 13;
@@ -124,7 +125,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(164, 401);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(172, 22);
             this.textBox1.TabIndex = 12;
@@ -174,7 +175,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(164, 476);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(172, 22);
             this.textBox3.TabIndex = 23;
@@ -202,7 +203,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(164, 639);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(172, 22);
             this.textBox4.TabIndex = 26;
@@ -210,7 +211,7 @@
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(164, 604);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(172, 22);
             this.textBox5.TabIndex = 27;
@@ -219,7 +220,7 @@
             // 
             this.btnSubmit.BackColor = System.Drawing.Color.Wheat;
             this.btnSubmit.Location = new System.Drawing.Point(132, 672);
-            this.btnSubmit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSubmit.Margin = new System.Windows.Forms.Padding(4);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(100, 28);
             this.btnSubmit.TabIndex = 28;
@@ -252,7 +253,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblFullName);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "registration_screen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

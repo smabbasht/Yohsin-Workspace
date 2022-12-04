@@ -133,12 +133,12 @@
             // lblDashboard
             // 
             this.lblDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.lblDashboard.Location = new System.Drawing.Point(21, 166);
+            this.lblDashboard.Location = new System.Drawing.Point(21, 180);
             this.lblDashboard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDashboard.Name = "lblDashboard";
-            this.lblDashboard.Size = new System.Drawing.Size(157, 66);
+            this.lblDashboard.Size = new System.Drawing.Size(176, 49);
             this.lblDashboard.TabIndex = 5;
-            this.lblDashboard.Text = "My Orders";
+            this.lblDashboard.Text = "Customer Care";
             this.lblDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1

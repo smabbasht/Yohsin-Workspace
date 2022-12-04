@@ -69,5 +69,12 @@ namespace yohsin_workspace
             }
             this.Hide();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            startup_screen startScreen = new startup_screen();
+            startScreen.Show();
+            this.Hide();
+        }
     }
 }
