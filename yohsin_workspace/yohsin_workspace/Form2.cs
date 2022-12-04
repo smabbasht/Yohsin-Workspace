@@ -68,8 +68,21 @@ namespace yohsin_workspace
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            freelancer_dashboard freelancerDashboard = new freelancer_dashboard();
-            freelancerDashboard.Show();
+            if (cboxAccountType.SelectedItem.ToString() == "Freelancer")
+            {
+                freelancer_dashboard freelancerDashboard = new freelancer_dashboard();
+                freelancerDashboard.Show();
+            }
+            else if (cboxAccountType.SelectedItem.ToString() == "Client")
+            {
+                client_dashboard clientDashboard = new client_dashboard();
+                clientDashboard.Show();
+            }
+            else
+            {
+                freelancer_dashboard adminDashboard = new freelancer_dashboard();
+                adminDashboard.Show();
+            }
             this.Hide();
         }
     }
