@@ -42,10 +42,10 @@
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Wheat;
-            this.btnLogin.Location = new System.Drawing.Point(182, 295);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLogin.Location = new System.Drawing.Point(242, 362);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(74, 24);
+            this.btnLogin.Size = new System.Drawing.Size(99, 30);
             this.btnLogin.TabIndex = 0;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -55,10 +55,10 @@
             // 
             this.btnRegister.BackColor = System.Drawing.Color.Wheat;
             this.btnRegister.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnRegister.Location = new System.Drawing.Point(84, 295);
-            this.btnRegister.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRegister.Location = new System.Drawing.Point(112, 363);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(77, 22);
+            this.btnRegister.Size = new System.Drawing.Size(104, 30);
             this.btnRegister.TabIndex = 1;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = false;
@@ -67,33 +67,35 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::yohsin_workspace.Properties.Resources.yohsin_logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(84, 88);
+            this.pictureBox1.Location = new System.Drawing.Point(112, 108);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(172, 163);
+            this.pictureBox1.Size = new System.Drawing.Size(229, 201);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Wheat;
-            this.label1.Location = new System.Drawing.Point(121, 276);
+            this.label1.Location = new System.Drawing.Point(161, 340);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 4);
+            this.label1.Size = new System.Drawing.Size(133, 5);
             this.label1.TabIndex = 3;
             // 
             // startup_screen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::yohsin_workspace.Properties.Resources.startup_bg_greenery;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(734, 491);
+            this.ClientSize = new System.Drawing.Size(979, 604);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnLogin);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "startup_screen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Startup Screen";
