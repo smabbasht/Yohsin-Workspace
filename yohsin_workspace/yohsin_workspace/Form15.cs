@@ -63,5 +63,11 @@ namespace yohsin_workspace
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            raise_new_issue raiseNewIssue = new raise_new_issue();
+            raiseNewIssue.Show();
+        }
     }
 }

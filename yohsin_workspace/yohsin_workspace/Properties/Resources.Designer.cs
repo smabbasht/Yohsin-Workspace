@@ -123,6 +123,16 @@ namespace yohsin_workspace.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap two_people_sitting_in_a_room {
+            get {
+                object obj = ResourceManager.GetObject("two_people_sitting_in_a_room", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap yohsin_logo {
             get {
                 object obj = ResourceManager.GetObject("yohsin_logo", resourceCulture);

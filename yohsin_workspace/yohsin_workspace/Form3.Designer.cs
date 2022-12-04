@@ -59,6 +59,7 @@
             this.lblAccountType.Size = new System.Drawing.Size(107, 22);
             this.lblAccountType.TabIndex = 19;
             this.lblAccountType.Text = "Account Type:";
+            this.lblAccountType.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblEmail
             // 
@@ -141,6 +142,7 @@
             this.lblFullName.Size = new System.Drawing.Size(107, 22);
             this.lblFullName.TabIndex = 11;
             this.lblFullName.Text = "Full Name:";
+            this.lblFullName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblFullName.Click += new System.EventHandler(this.lblUsername_Click);
             // 
             // lblPersonalDetails
@@ -175,12 +177,15 @@
             this.lblPassword.Size = new System.Drawing.Size(107, 22);
             this.lblPassword.TabIndex = 22;
             this.lblPassword.Text = "Password";
+            this.lblPassword.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBox3
             // 
+            this.textBox3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.textBox3.Location = new System.Drawing.Point(164, 469);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
+            this.textBox3.PasswordChar = '*';
             this.textBox3.Size = new System.Drawing.Size(172, 22);
             this.textBox3.TabIndex = 23;
             // 
@@ -193,6 +198,7 @@
             this.lblAccountIBAN.Size = new System.Drawing.Size(107, 22);
             this.lblAccountIBAN.TabIndex = 24;
             this.lblAccountIBAN.Text = "Account IBAN";
+            this.lblAccountIBAN.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblBankName
             // 
@@ -203,6 +209,7 @@
             this.lblBankName.Size = new System.Drawing.Size(107, 22);
             this.lblBankName.TabIndex = 25;
             this.lblBankName.Text = "Bank Name";
+            this.lblBankName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBox4
             // 
@@ -237,8 +244,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::yohsin_workspace.Properties.Resources.startup_bg_greenery;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1117, 715);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1141, 719);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);

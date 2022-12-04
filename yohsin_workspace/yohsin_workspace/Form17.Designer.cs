@@ -221,7 +221,7 @@
             this.label1.Size = new System.Drawing.Size(148, 22);
             this.label1.TabIndex = 52;
             this.label1.Text = "Availability (Hrs/week)";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label2
             // 
