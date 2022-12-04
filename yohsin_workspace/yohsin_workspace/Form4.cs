@@ -21,5 +21,45 @@ namespace yohsin_workspace
         {
 
         }
+
+        private void lblDashboard_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void horizontalDivider_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMyOrders_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMyRequests_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMyInformation_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMyProfile_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
