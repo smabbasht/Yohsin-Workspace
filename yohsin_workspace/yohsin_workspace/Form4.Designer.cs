@@ -55,7 +55,7 @@
             this.panel1.Controls.Add(this.lblDashboard);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(1, -5);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(205, 633);
             this.panel1.TabIndex = 0;
@@ -69,7 +69,7 @@
             this.btnMyInformation.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F);
             this.btnMyInformation.ForeColor = System.Drawing.Color.White;
             this.btnMyInformation.Location = new System.Drawing.Point(16, 512);
-            this.btnMyInformation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMyInformation.Margin = new System.Windows.Forms.Padding(4);
             this.btnMyInformation.Name = "btnMyInformation";
             this.btnMyInformation.Size = new System.Drawing.Size(172, 60);
             this.btnMyInformation.TabIndex = 21;
@@ -85,12 +85,13 @@
             this.btnCustomerCare.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCustomerCare.ForeColor = System.Drawing.Color.White;
             this.btnCustomerCare.Location = new System.Drawing.Point(15, 442);
-            this.btnCustomerCare.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCustomerCare.Margin = new System.Windows.Forms.Padding(4);
             this.btnCustomerCare.Name = "btnCustomerCare";
             this.btnCustomerCare.Size = new System.Drawing.Size(172, 59);
             this.btnCustomerCare.TabIndex = 22;
             this.btnCustomerCare.Text = "Customer Care";
             this.btnCustomerCare.UseVisualStyleBackColor = false;
+            this.btnCustomerCare.Click += new System.EventHandler(this.btnCustomerCare_Click);
             // 
             // btnMyRequests
             // 
@@ -100,7 +101,7 @@
             this.btnMyRequests.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMyRequests.ForeColor = System.Drawing.Color.White;
             this.btnMyRequests.Location = new System.Drawing.Point(16, 366);
-            this.btnMyRequests.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMyRequests.Margin = new System.Windows.Forms.Padding(4);
             this.btnMyRequests.Name = "btnMyRequests";
             this.btnMyRequests.Size = new System.Drawing.Size(172, 63);
             this.btnMyRequests.TabIndex = 20;
@@ -116,7 +117,7 @@
             this.btnMyOrders.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMyOrders.ForeColor = System.Drawing.Color.White;
             this.btnMyOrders.Location = new System.Drawing.Point(16, 294);
-            this.btnMyOrders.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMyOrders.Margin = new System.Windows.Forms.Padding(4);
             this.btnMyOrders.Name = "btnMyOrders";
             this.btnMyOrders.Size = new System.Drawing.Size(172, 60);
             this.btnMyOrders.TabIndex = 19;
@@ -132,7 +133,7 @@
             this.btnMyProfile.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMyProfile.ForeColor = System.Drawing.Color.White;
             this.btnMyProfile.Location = new System.Drawing.Point(15, 220);
-            this.btnMyProfile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMyProfile.Margin = new System.Windows.Forms.Padding(4);
             this.btnMyProfile.Name = "btnMyProfile";
             this.btnMyProfile.Size = new System.Drawing.Size(172, 64);
             this.btnMyProfile.TabIndex = 0;
@@ -166,7 +167,7 @@
             this.pictureBox1.BackgroundImage = global::yohsin_workspace.Properties.Resources.yohsin_logo1;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(23, 18);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(155, 140);
             this.pictureBox1.TabIndex = 4;
@@ -178,7 +179,7 @@
             this.pictureBox2.BackgroundImage = global::yohsin_workspace.Properties.Resources.person_street_bg;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(205, -6);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(955, 625);
             this.pictureBox2.TabIndex = 1;
@@ -192,7 +193,7 @@
             this.ClientSize = new System.Drawing.Size(1147, 602);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "freelancer_dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

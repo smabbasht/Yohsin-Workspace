@@ -19,3 +19,9 @@ C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.client_customer_care.resources
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.client_my_info.resources
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.Resources.client_my_orders.resources
+C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.admin_customer_care.resources
+C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.my_profile.resources
+C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.freelancer_my_order.resources
+C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.my_requests.resources
+C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.freelancer_customer_care.resources
+C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.freelancer_my_information.resources
