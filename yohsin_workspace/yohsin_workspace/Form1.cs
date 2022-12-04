@@ -24,7 +24,16 @@ namespace yohsin_workspace
 
         private void register_Click(object sender, EventArgs e)
         {
+            registration_screen regScreen = new registration_screen();
+            regScreen.Show();
+            this.Hide();
+        }
 
+        private void login_Click(object sender, EventArgs e)
+        {
+            login_screen logScreen = new login_screen();
+            logScreen.Show();
+            this.Hide();
         }
     }
 }

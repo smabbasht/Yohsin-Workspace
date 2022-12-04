@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(registration_screen));
             this.lblAccountType = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.horizontalDivider = new System.Windows.Forms.Label();
             this.lblRegistrationTitle = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cboxAccountType = new System.Windows.Forms.ComboBox();
@@ -68,14 +68,14 @@
             this.lblEmail.Text = "Email";
             this.lblEmail.Click += new System.EventHandler(this.lblPassword_Click);
             // 
-            // label1
+            // horizontalDivider
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Location = new System.Drawing.Point(99, 267);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 3);
-            this.label1.TabIndex = 17;
+            this.horizontalDivider.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.horizontalDivider.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.horizontalDivider.Location = new System.Drawing.Point(99, 267);
+            this.horizontalDivider.Name = "horizontalDivider";
+            this.horizontalDivider.Size = new System.Drawing.Size(80, 3);
+            this.horizontalDivider.TabIndex = 17;
             // 
             // lblRegistrationTitle
             // 
@@ -86,6 +86,7 @@
             this.lblRegistrationTitle.Size = new System.Drawing.Size(140, 28);
             this.lblRegistrationTitle.TabIndex = 16;
             this.lblRegistrationTitle.Text = "Registration";
+            this.lblRegistrationTitle.Click += new System.EventHandler(this.lblRegistrationTitle_Click);
             // 
             // pictureBox1
             // 
@@ -103,6 +104,7 @@
             this.cboxAccountType.Name = "cboxAccountType";
             this.cboxAccountType.Size = new System.Drawing.Size(130, 21);
             this.cboxAccountType.TabIndex = 14;
+            this.cboxAccountType.SelectedIndexChanged += new System.EventHandler(this.cboxAccountType_SelectedIndexChanged);
             // 
             // textBox2
             // 
@@ -136,6 +138,7 @@
             this.lblPersonalDetails.Size = new System.Drawing.Size(88, 19);
             this.lblPersonalDetails.TabIndex = 20;
             this.lblPersonalDetails.Text = "Personal Details:";
+            this.lblPersonalDetails.Click += new System.EventHandler(this.lblPersonalDetails_Click);
             // 
             // lblAccountDetails
             // 
@@ -211,7 +214,7 @@
             this.Controls.Add(this.lblPersonalDetails);
             this.Controls.Add(this.lblAccountType);
             this.Controls.Add(this.lblEmail);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.horizontalDivider);
             this.Controls.Add(this.lblRegistrationTitle);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cboxAccountType);
@@ -231,7 +234,7 @@
 
         private System.Windows.Forms.Label lblAccountType;
         private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label horizontalDivider;
         private System.Windows.Forms.Label lblRegistrationTitle;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox cboxAccountType;

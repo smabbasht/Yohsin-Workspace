@@ -17,6 +17,7 @@ namespace yohsin_workspace
             InitializeComponent();
         }
 
+        // 
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -24,10 +25,43 @@ namespace yohsin_workspace
 
         private void login_screen_Load(object sender, EventArgs e)
         {
+            cboxAccountType.Items.Add("Freelancer");
+            cboxAccountType.Items.Add("Client");
+            cboxAccountType.Items.Add("Administrator");
+        }
+        // lblLoginScreenTitle
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void cboxAccountType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cboxAccountType.SelectedValue = cboxAccountType.SelectedItem.ToString();
+
+        }
+
+        private void lblUsername_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblPassword_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAccountType_Click(object sender, EventArgs e)
+        {
+
+        }
+        // Horizontal Divider Line
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        // yohsin logo
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

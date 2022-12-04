@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(startup_screen));
-            this.login = new System.Windows.Forms.Button();
-            this.register = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.label1 = new System.Windows.Forms.Label();
@@ -39,29 +39,30 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
-            // login
+            // btnLogin
             // 
-            this.login.BackColor = System.Drawing.Color.Wheat;
-            this.login.Location = new System.Drawing.Point(182, 295);
-            this.login.Margin = new System.Windows.Forms.Padding(2);
-            this.login.Name = "login";
-            this.login.Size = new System.Drawing.Size(74, 24);
-            this.login.TabIndex = 0;
-            this.login.Text = "Login";
-            this.login.UseVisualStyleBackColor = false;
+            this.btnLogin.BackColor = System.Drawing.Color.Wheat;
+            this.btnLogin.Location = new System.Drawing.Point(182, 295);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(74, 24);
+            this.btnLogin.TabIndex = 0;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.login_Click);
             // 
-            // register
+            // btnRegister
             // 
-            this.register.BackColor = System.Drawing.Color.Wheat;
-            this.register.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.register.Location = new System.Drawing.Point(84, 295);
-            this.register.Margin = new System.Windows.Forms.Padding(2);
-            this.register.Name = "register";
-            this.register.Size = new System.Drawing.Size(77, 22);
-            this.register.TabIndex = 1;
-            this.register.Text = "Register";
-            this.register.UseVisualStyleBackColor = false;
-            this.register.Click += new System.EventHandler(this.register_Click);
+            this.btnRegister.BackColor = System.Drawing.Color.Wheat;
+            this.btnRegister.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnRegister.Location = new System.Drawing.Point(84, 295);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(77, 22);
+            this.btnRegister.TabIndex = 1;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.UseVisualStyleBackColor = false;
+            this.btnRegister.Click += new System.EventHandler(this.register_Click);
             // 
             // pictureBox1
             // 
@@ -86,16 +87,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::yohsin_workspace.Properties.Resources.startup_bg_greenery;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(748, 510);
+            this.ClientSize = new System.Drawing.Size(734, 491);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.register);
-            this.Controls.Add(this.login);
+            this.Controls.Add(this.btnRegister);
+            this.Controls.Add(this.btnLogin);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "startup_screen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Startup Screen";
             this.Load += new System.EventHandler(this.startup_screen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
@@ -105,8 +106,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button login;
-        private System.Windows.Forms.Button register;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.Label label1;

@@ -24,10 +24,27 @@ namespace yohsin_workspace
 
         private void Form3_Load(object sender, EventArgs e)
         {
-
+            cboxAccountType.Items.Add("Freelancer");
+            cboxAccountType.Items.Add("Client");
+            cboxAccountType.Items.Add("Administrator");
         }
 
         private void lblPassword_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboxAccountType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void lblPersonalDetails_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblRegistrationTitle_Click(object sender, EventArgs e)
         {
 
         }

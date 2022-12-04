@@ -49,6 +49,7 @@
             this.lblUsername.Size = new System.Drawing.Size(80, 18);
             this.lblUsername.TabIndex = 0;
             this.lblUsername.Text = "Username:";
+            this.lblUsername.Click += new System.EventHandler(this.lblUsername_Click);
             // 
             // textBox1
             // 
@@ -56,6 +57,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(130, 20);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -71,6 +73,7 @@
             this.cboxAccountType.Name = "cboxAccountType";
             this.cboxAccountType.Size = new System.Drawing.Size(130, 21);
             this.cboxAccountType.TabIndex = 5;
+            this.cboxAccountType.SelectedIndexChanged += new System.EventHandler(this.cboxAccountType_SelectedIndexChanged);
             // 
             // lblLoginScreenTitle
             // 
@@ -91,6 +94,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(170, 166);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -109,6 +113,7 @@
             this.lblPassword.Size = new System.Drawing.Size(80, 18);
             this.lblPassword.TabIndex = 9;
             this.lblPassword.Text = "Password";
+            this.lblPassword.Click += new System.EventHandler(this.lblPassword_Click);
             // 
             // lblAccountType
             // 
@@ -118,6 +123,7 @@
             this.lblAccountType.Size = new System.Drawing.Size(80, 18);
             this.lblAccountType.TabIndex = 10;
             this.lblAccountType.Text = "Account Type:";
+            this.lblAccountType.Click += new System.EventHandler(this.lblAccountType_Click);
             // 
             // login_screen
             // 
