@@ -142,4 +142,7 @@
   <data name="pen_paper_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pen_paper_table.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="one_man_sitting_alone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\one_man_sitting_alone.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

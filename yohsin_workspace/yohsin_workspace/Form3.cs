@@ -54,8 +54,10 @@ namespace yohsin_workspace
         {
             if (cboxAccountType.SelectedItem.ToString() == "Freelancer")
             {
-                freelancer_dashboard freelancerDashboard = new freelancer_dashboard();
-                freelancerDashboard.Show();
+                freelancer_complete_profile fCompleteProfile = new freelancer_complete_profile();
+                fCompleteProfile.Show();
+                //freelancer_dashboard freelancerDashboard = new freelancer_dashboard();
+                //freelancerDashboard.Show();
             }
             else if (cboxAccountType.SelectedItem.ToString() == "Client")
             {
