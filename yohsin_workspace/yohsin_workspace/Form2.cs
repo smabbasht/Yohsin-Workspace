@@ -83,7 +83,7 @@ namespace yohsin_workspace
             }
             else
             {
-                freelancer_dashboard adminDashboard = new freelancer_dashboard();
+                admin_dashboard adminDashboard = new admin_dashboard();
                 adminDashboard.Show();
             }
             this.Hide();

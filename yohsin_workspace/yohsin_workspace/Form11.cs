@@ -15,6 +15,9 @@ namespace yohsin_workspace
         public admin_customer_care()
         {
             InitializeComponent();
+            DataGridViewButtonColumn viewDetails = new DataGridViewButtonColumn();
+            viewDetails.Name = "view_details";
+            viewDetails.Text = "View Details";
         }
 
         private void btnCutomerCare_Click(object sender, EventArgs e)
@@ -27,6 +30,11 @@ namespace yohsin_workspace
             startup_screen startScreen = new startup_screen();
             startScreen.Show();
             this.Hide();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
