@@ -48,5 +48,12 @@ namespace yohsin_workspace
         {
 
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            freelancer_dashboard freelancerDashboard = new freelancer_dashboard();
+            freelancerDashboard.Show();
+            this.Hide();
+        }
     }
 }
