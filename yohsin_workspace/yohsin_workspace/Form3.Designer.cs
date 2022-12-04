@@ -69,6 +69,7 @@
             this.lblEmail.Size = new System.Drawing.Size(107, 22);
             this.lblEmail.TabIndex = 18;
             this.lblEmail.Text = "Email";
+            this.lblEmail.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblEmail.Click += new System.EventHandler(this.lblPassword_Click);
             // 
             // horizontalDivider
@@ -91,6 +92,7 @@
             this.lblRegistrationTitle.Size = new System.Drawing.Size(187, 34);
             this.lblRegistrationTitle.TabIndex = 16;
             this.lblRegistrationTitle.Text = "Registration";
+            this.lblRegistrationTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblRegistrationTitle.Click += new System.EventHandler(this.lblRegistrationTitle_Click);
             // 
             // pictureBox1
@@ -150,6 +152,7 @@
             this.lblPersonalDetails.Size = new System.Drawing.Size(117, 23);
             this.lblPersonalDetails.TabIndex = 20;
             this.lblPersonalDetails.Text = "Personal Details:";
+            this.lblPersonalDetails.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblPersonalDetails.Click += new System.EventHandler(this.lblPersonalDetails_Click);
             // 
             // lblAccountDetails
@@ -161,6 +164,7 @@
             this.lblAccountDetails.Size = new System.Drawing.Size(117, 23);
             this.lblAccountDetails.TabIndex = 21;
             this.lblAccountDetails.Text = "Account Details:";
+            this.lblAccountDetails.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblPassword
             // 
