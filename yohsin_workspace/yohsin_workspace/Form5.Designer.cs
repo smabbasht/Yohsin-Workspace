@@ -46,9 +46,10 @@
             // 
             this.pictureBox2.BackgroundImage = global::yohsin_workspace.Properties.Resources.person_street_bg;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(154, -2);
+            this.pictureBox2.Location = new System.Drawing.Point(205, -2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(716, 508);
+            this.pictureBox2.Size = new System.Drawing.Size(955, 625);
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
@@ -63,8 +64,9 @@
             this.panel1.Controls.Add(this.lblDashboard);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(0, -2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(154, 514);
+            this.panel1.Size = new System.Drawing.Size(205, 633);
             this.panel1.TabIndex = 2;
             // 
             // btnMyInformation
@@ -74,12 +76,14 @@
             this.btnMyInformation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMyInformation.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F);
             this.btnMyInformation.ForeColor = System.Drawing.Color.White;
-            this.btnMyInformation.Location = new System.Drawing.Point(10, 409);
+            this.btnMyInformation.Location = new System.Drawing.Point(13, 503);
+            this.btnMyInformation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMyInformation.Name = "btnMyInformation";
-            this.btnMyInformation.Size = new System.Drawing.Size(129, 60);
+            this.btnMyInformation.Size = new System.Drawing.Size(172, 74);
             this.btnMyInformation.TabIndex = 21;
             this.btnMyInformation.Text = "My Information";
             this.btnMyInformation.UseVisualStyleBackColor = false;
+            this.btnMyInformation.Click += new System.EventHandler(this.btnMyInformation_Click);
             // 
             // btnCustomerCares
             // 
@@ -88,12 +92,14 @@
             this.btnCustomerCares.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCustomerCares.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCustomerCares.ForeColor = System.Drawing.Color.White;
-            this.btnCustomerCares.Location = new System.Drawing.Point(10, 341);
+            this.btnCustomerCares.Location = new System.Drawing.Point(13, 420);
+            this.btnCustomerCares.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCustomerCares.Name = "btnCustomerCares";
-            this.btnCustomerCares.Size = new System.Drawing.Size(129, 60);
+            this.btnCustomerCares.Size = new System.Drawing.Size(172, 74);
             this.btnCustomerCares.TabIndex = 20;
             this.btnCustomerCares.Text = "Cutomer Care";
             this.btnCustomerCares.UseVisualStyleBackColor = false;
+            this.btnCustomerCares.Click += new System.EventHandler(this.btnCustomerCares_Click);
             // 
             // btnMyOrders
             // 
@@ -102,12 +108,14 @@
             this.btnMyOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMyOrders.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMyOrders.ForeColor = System.Drawing.Color.White;
-            this.btnMyOrders.Location = new System.Drawing.Point(9, 274);
+            this.btnMyOrders.Location = new System.Drawing.Point(12, 337);
+            this.btnMyOrders.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMyOrders.Name = "btnMyOrders";
-            this.btnMyOrders.Size = new System.Drawing.Size(129, 60);
+            this.btnMyOrders.Size = new System.Drawing.Size(172, 74);
             this.btnMyOrders.TabIndex = 19;
             this.btnMyOrders.Text = "My Orders";
             this.btnMyOrders.UseVisualStyleBackColor = false;
+            this.btnMyOrders.Click += new System.EventHandler(this.btnMyOrders_Click);
             // 
             // btnSearchExperts
             // 
@@ -116,27 +124,31 @@
             this.btnSearchExperts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearchExperts.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchExperts.ForeColor = System.Drawing.Color.White;
-            this.btnSearchExperts.Location = new System.Drawing.Point(9, 207);
+            this.btnSearchExperts.Location = new System.Drawing.Point(12, 255);
+            this.btnSearchExperts.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSearchExperts.Name = "btnSearchExperts";
-            this.btnSearchExperts.Size = new System.Drawing.Size(129, 60);
+            this.btnSearchExperts.Size = new System.Drawing.Size(172, 74);
             this.btnSearchExperts.TabIndex = 0;
             this.btnSearchExperts.Text = "Search Experts";
             this.btnSearchExperts.UseVisualStyleBackColor = false;
+            this.btnSearchExperts.Click += new System.EventHandler(this.btnSearchExperts_Click);
             // 
             // horizontalDivider
             // 
             this.horizontalDivider.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.horizontalDivider.Location = new System.Drawing.Point(46, 175);
+            this.horizontalDivider.Location = new System.Drawing.Point(61, 215);
+            this.horizontalDivider.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.horizontalDivider.Name = "horizontalDivider";
-            this.horizontalDivider.Size = new System.Drawing.Size(50, 3);
+            this.horizontalDivider.Size = new System.Drawing.Size(67, 4);
             this.horizontalDivider.TabIndex = 18;
             // 
             // lblDashboard
             // 
             this.lblDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.lblDashboard.Location = new System.Drawing.Point(20, 138);
+            this.lblDashboard.Location = new System.Drawing.Point(27, 170);
+            this.lblDashboard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDashboard.Name = "lblDashboard";
-            this.lblDashboard.Size = new System.Drawing.Size(118, 27);
+            this.lblDashboard.Size = new System.Drawing.Size(157, 33);
             this.lblDashboard.TabIndex = 5;
             this.lblDashboard.Text = "Dashboard";
             // 
@@ -144,19 +156,22 @@
             // 
             this.pictureBox1.BackgroundImage = global::yohsin_workspace.Properties.Resources.yohsin_logo1;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 11);
+            this.pictureBox1.Location = new System.Drawing.Point(23, 14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(116, 114);
+            this.pictureBox1.Size = new System.Drawing.Size(155, 140);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // client_dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(863, 499);
+            this.ClientSize = new System.Drawing.Size(1151, 614);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "client_dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

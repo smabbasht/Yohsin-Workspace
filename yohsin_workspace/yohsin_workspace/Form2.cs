@@ -28,6 +28,7 @@ namespace yohsin_workspace
             cboxAccountType.Items.Add("Freelancer");
             cboxAccountType.Items.Add("Client");
             cboxAccountType.Items.Add("Administrator");
+            cboxAccountType.SelectedIndex = 0;
         }
         // lblLoginScreenTitle
         private void label1_Click(object sender, EventArgs e)

@@ -30,12 +30,12 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnMyInformation = new System.Windows.Forms.Button();
+            this.btnCustomerCare = new System.Windows.Forms.Button();
             this.btnMyRequests = new System.Windows.Forms.Button();
             this.btnMyOrders = new System.Windows.Forms.Button();
             this.btnMyProfile = new System.Windows.Forms.Button();
             this.horizontalDivider = new System.Windows.Forms.Label();
             this.lblDashboard = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -47,16 +47,17 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Wheat;
             this.panel1.Controls.Add(this.btnMyInformation);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnCustomerCare);
             this.panel1.Controls.Add(this.btnMyRequests);
             this.panel1.Controls.Add(this.btnMyOrders);
             this.panel1.Controls.Add(this.btnMyProfile);
             this.panel1.Controls.Add(this.horizontalDivider);
             this.panel1.Controls.Add(this.lblDashboard);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(1, -4);
+            this.panel1.Location = new System.Drawing.Point(1, -5);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(154, 514);
+            this.panel1.Size = new System.Drawing.Size(205, 633);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -67,13 +68,29 @@
             this.btnMyInformation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMyInformation.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F);
             this.btnMyInformation.ForeColor = System.Drawing.Color.White;
-            this.btnMyInformation.Location = new System.Drawing.Point(12, 416);
+            this.btnMyInformation.Location = new System.Drawing.Point(16, 512);
+            this.btnMyInformation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMyInformation.Name = "btnMyInformation";
-            this.btnMyInformation.Size = new System.Drawing.Size(129, 49);
+            this.btnMyInformation.Size = new System.Drawing.Size(172, 60);
             this.btnMyInformation.TabIndex = 21;
             this.btnMyInformation.Text = "My Information";
             this.btnMyInformation.UseVisualStyleBackColor = false;
             this.btnMyInformation.Click += new System.EventHandler(this.btnMyInformation_Click);
+            // 
+            // btnCustomerCare
+            // 
+            this.btnCustomerCare.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(82)))), ((int)(((byte)(148)))));
+            this.btnCustomerCare.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCustomerCare.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCustomerCare.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomerCare.ForeColor = System.Drawing.Color.White;
+            this.btnCustomerCare.Location = new System.Drawing.Point(15, 442);
+            this.btnCustomerCare.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCustomerCare.Name = "btnCustomerCare";
+            this.btnCustomerCare.Size = new System.Drawing.Size(172, 59);
+            this.btnCustomerCare.TabIndex = 22;
+            this.btnCustomerCare.Text = "Customer Care";
+            this.btnCustomerCare.UseVisualStyleBackColor = false;
             // 
             // btnMyRequests
             // 
@@ -82,9 +99,10 @@
             this.btnMyRequests.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMyRequests.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMyRequests.ForeColor = System.Drawing.Color.White;
-            this.btnMyRequests.Location = new System.Drawing.Point(12, 297);
+            this.btnMyRequests.Location = new System.Drawing.Point(16, 366);
+            this.btnMyRequests.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMyRequests.Name = "btnMyRequests";
-            this.btnMyRequests.Size = new System.Drawing.Size(129, 51);
+            this.btnMyRequests.Size = new System.Drawing.Size(172, 63);
             this.btnMyRequests.TabIndex = 20;
             this.btnMyRequests.Text = "My Requests";
             this.btnMyRequests.UseVisualStyleBackColor = false;
@@ -97,9 +115,10 @@
             this.btnMyOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMyOrders.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMyOrders.ForeColor = System.Drawing.Color.White;
-            this.btnMyOrders.Location = new System.Drawing.Point(12, 239);
+            this.btnMyOrders.Location = new System.Drawing.Point(16, 294);
+            this.btnMyOrders.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMyOrders.Name = "btnMyOrders";
-            this.btnMyOrders.Size = new System.Drawing.Size(129, 49);
+            this.btnMyOrders.Size = new System.Drawing.Size(172, 60);
             this.btnMyOrders.TabIndex = 19;
             this.btnMyOrders.Text = "My Orders";
             this.btnMyOrders.UseVisualStyleBackColor = false;
@@ -112,9 +131,10 @@
             this.btnMyProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMyProfile.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMyProfile.ForeColor = System.Drawing.Color.White;
-            this.btnMyProfile.Location = new System.Drawing.Point(11, 179);
+            this.btnMyProfile.Location = new System.Drawing.Point(15, 220);
+            this.btnMyProfile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMyProfile.Name = "btnMyProfile";
-            this.btnMyProfile.Size = new System.Drawing.Size(129, 52);
+            this.btnMyProfile.Size = new System.Drawing.Size(172, 64);
             this.btnMyProfile.TabIndex = 0;
             this.btnMyProfile.Text = "My Profile";
             this.btnMyProfile.UseVisualStyleBackColor = false;
@@ -123,43 +143,32 @@
             // horizontalDivider
             // 
             this.horizontalDivider.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.horizontalDivider.Location = new System.Drawing.Point(48, 167);
+            this.horizontalDivider.Location = new System.Drawing.Point(64, 206);
+            this.horizontalDivider.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.horizontalDivider.Name = "horizontalDivider";
-            this.horizontalDivider.Size = new System.Drawing.Size(50, 3);
+            this.horizontalDivider.Size = new System.Drawing.Size(67, 4);
             this.horizontalDivider.TabIndex = 18;
             this.horizontalDivider.Click += new System.EventHandler(this.horizontalDivider_Click);
             // 
             // lblDashboard
             // 
             this.lblDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.lblDashboard.Location = new System.Drawing.Point(22, 136);
+            this.lblDashboard.Location = new System.Drawing.Point(29, 167);
+            this.lblDashboard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDashboard.Name = "lblDashboard";
-            this.lblDashboard.Size = new System.Drawing.Size(118, 27);
+            this.lblDashboard.Size = new System.Drawing.Size(157, 33);
             this.lblDashboard.TabIndex = 5;
             this.lblDashboard.Text = "Dashboard";
             this.lblDashboard.Click += new System.EventHandler(this.lblDashboard_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(82)))), ((int)(((byte)(148)))));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(11, 359);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 48);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "My Profile";
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::yohsin_workspace.Properties.Resources.yohsin_logo1;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 15);
+            this.pictureBox1.Location = new System.Drawing.Point(23, 18);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(116, 114);
+            this.pictureBox1.Size = new System.Drawing.Size(155, 140);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -168,20 +177,22 @@
             // 
             this.pictureBox2.BackgroundImage = global::yohsin_workspace.Properties.Resources.person_street_bg;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(154, -5);
+            this.pictureBox2.Location = new System.Drawing.Point(205, -6);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(716, 508);
+            this.pictureBox2.Size = new System.Drawing.Size(955, 625);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // freelancer_dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(860, 489);
+            this.ClientSize = new System.Drawing.Size(1147, 602);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "freelancer_dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -204,6 +215,6 @@
         private System.Windows.Forms.Button btnMyRequests;
         private System.Windows.Forms.Button btnMyOrders;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCustomerCare;
     }
 }

@@ -27,6 +27,7 @@ namespace yohsin_workspace
             cboxAccountType.Items.Add("Freelancer");
             cboxAccountType.Items.Add("Client");
             cboxAccountType.Items.Add("Administrator");
+            cboxAccountType.SelectedIndex = 0;
         }
 
         private void lblPassword_Click(object sender, EventArgs e)
