@@ -83,6 +83,16 @@ namespace yohsin_workspace.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap person_street_bg {
+            get {
+                object obj = ResourceManager.GetObject("person_street_bg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap startup_bg_greenery {
             get {
                 object obj = ResourceManager.GetObject("startup_bg_greenery", resourceCulture);

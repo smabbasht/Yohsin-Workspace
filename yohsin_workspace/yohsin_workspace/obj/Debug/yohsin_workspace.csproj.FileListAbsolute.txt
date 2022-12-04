@@ -11,3 +11,4 @@ C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.startup_screen.resources
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.login_screen.resources
 C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.registration_screen.resources
+C:\Users\Abbas\Documents\GitHub\yohsin_workspace_windows_forms\yohsin_workspace\yohsin_workspace\obj\Debug\yohsin_workspace.freelancer_dashboard.resources

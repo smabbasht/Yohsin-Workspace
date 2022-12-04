@@ -38,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblAccountType = new System.Windows.Forms.Label();
+            this.btnSubmit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -125,6 +126,17 @@
             this.lblAccountType.Text = "Account Type:";
             this.lblAccountType.Click += new System.EventHandler(this.lblAccountType_Click);
             // 
+            // btnSubmit
+            // 
+            this.btnSubmit.BackColor = System.Drawing.Color.Wheat;
+            this.btnSubmit.Location = new System.Drawing.Point(150, 459);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
+            this.btnSubmit.TabIndex = 29;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            // 
             // login_screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -132,6 +144,7 @@
             this.BackgroundImage = global::yohsin_workspace.Properties.Resources.startup_bg_greenery;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(777, 518);
+            this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.lblAccountType);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.label1);
@@ -143,7 +156,8 @@
             this.Controls.Add(this.lblUsername);
             this.MaximizeBox = false;
             this.Name = "login_screen";
-            this.Text = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Login Screen";
             this.Load += new System.EventHandler(this.login_screen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -162,5 +176,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblAccountType;
+        private System.Windows.Forms.Button btnSubmit;
     }
 }

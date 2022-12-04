@@ -16,5 +16,10 @@ namespace yohsin_workspace
         {
             InitializeComponent();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

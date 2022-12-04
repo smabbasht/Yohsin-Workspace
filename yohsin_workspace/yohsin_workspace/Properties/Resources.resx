@@ -118,22 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="yohsin_logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yohsin_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="yohsin_logo_c1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yohsin_logo_c1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="yohsin_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yohsin_logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="startup_bg_greenery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\startup_bg_greenery.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="freelancer_man_working_garden" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\freelancer_man_working_garden.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="startup_bg_greenery" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\startup_bg_greenery.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="yohsin_logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yohsin_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="my_profile_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\my_profile_icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yohsin_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yohsin_logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yohsin_logo_c1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yohsin_logo_c1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="person_street_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person_street_bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
