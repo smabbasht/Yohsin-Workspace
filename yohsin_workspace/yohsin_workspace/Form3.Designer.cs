@@ -53,7 +53,7 @@
             // lblAccountType
             // 
             this.lblAccountType.BackColor = System.Drawing.Color.Wheat;
-            this.lblAccountType.Location = new System.Drawing.Point(48, 517);
+            this.lblAccountType.Location = new System.Drawing.Point(48, 510);
             this.lblAccountType.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAccountType.Name = "lblAccountType";
             this.lblAccountType.Size = new System.Drawing.Size(107, 22);
@@ -63,7 +63,7 @@
             // lblEmail
             // 
             this.lblEmail.BackColor = System.Drawing.Color.Wheat;
-            this.lblEmail.Location = new System.Drawing.Point(48, 441);
+            this.lblEmail.Location = new System.Drawing.Point(48, 434);
             this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(107, 22);
@@ -75,7 +75,7 @@
             // 
             this.horizontalDivider.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.horizontalDivider.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.horizontalDivider.Location = new System.Drawing.Point(132, 329);
+            this.horizontalDivider.Location = new System.Drawing.Point(132, 322);
             this.horizontalDivider.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.horizontalDivider.Name = "horizontalDivider";
             this.horizontalDivider.Size = new System.Drawing.Size(107, 4);
@@ -85,7 +85,7 @@
             // 
             this.lblRegistrationTitle.BackColor = System.Drawing.Color.Wheat;
             this.lblRegistrationTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRegistrationTitle.Location = new System.Drawing.Point(92, 270);
+            this.lblRegistrationTitle.Location = new System.Drawing.Point(92, 263);
             this.lblRegistrationTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRegistrationTitle.Name = "lblRegistrationTitle";
             this.lblRegistrationTitle.Size = new System.Drawing.Size(187, 34);
@@ -96,10 +96,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(98, 62);
+            this.pictureBox1.Location = new System.Drawing.Point(85, 24);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(181, 174);
+            this.pictureBox1.Size = new System.Drawing.Size(215, 203);
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -107,7 +107,7 @@
             // cboxAccountType
             // 
             this.cboxAccountType.FormattingEnabled = true;
-            this.cboxAccountType.Location = new System.Drawing.Point(164, 513);
+            this.cboxAccountType.Location = new System.Drawing.Point(164, 506);
             this.cboxAccountType.Margin = new System.Windows.Forms.Padding(4);
             this.cboxAccountType.Name = "cboxAccountType";
             this.cboxAccountType.Size = new System.Drawing.Size(172, 24);
@@ -116,7 +116,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(164, 439);
+            this.textBox2.Location = new System.Drawing.Point(164, 432);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(172, 22);
@@ -124,7 +124,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(164, 401);
+            this.textBox1.Location = new System.Drawing.Point(164, 394);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(172, 22);
@@ -133,7 +133,7 @@
             // lblFullName
             // 
             this.lblFullName.BackColor = System.Drawing.Color.Wheat;
-            this.lblFullName.Location = new System.Drawing.Point(48, 402);
+            this.lblFullName.Location = new System.Drawing.Point(48, 395);
             this.lblFullName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFullName.Name = "lblFullName";
             this.lblFullName.Size = new System.Drawing.Size(107, 22);
@@ -144,7 +144,7 @@
             // lblPersonalDetails
             // 
             this.lblPersonalDetails.BackColor = System.Drawing.Color.Wheat;
-            this.lblPersonalDetails.Location = new System.Drawing.Point(128, 358);
+            this.lblPersonalDetails.Location = new System.Drawing.Point(128, 351);
             this.lblPersonalDetails.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPersonalDetails.Name = "lblPersonalDetails";
             this.lblPersonalDetails.Size = new System.Drawing.Size(117, 23);
@@ -155,7 +155,7 @@
             // lblAccountDetails
             // 
             this.lblAccountDetails.BackColor = System.Drawing.Color.Wheat;
-            this.lblAccountDetails.Location = new System.Drawing.Point(128, 566);
+            this.lblAccountDetails.Location = new System.Drawing.Point(128, 559);
             this.lblAccountDetails.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAccountDetails.Name = "lblAccountDetails";
             this.lblAccountDetails.Size = new System.Drawing.Size(117, 23);
@@ -165,7 +165,7 @@
             // lblPassword
             // 
             this.lblPassword.BackColor = System.Drawing.Color.Wheat;
-            this.lblPassword.Location = new System.Drawing.Point(48, 480);
+            this.lblPassword.Location = new System.Drawing.Point(48, 473);
             this.lblPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(107, 22);
@@ -174,7 +174,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(164, 476);
+            this.textBox3.Location = new System.Drawing.Point(164, 469);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(172, 22);
@@ -183,7 +183,7 @@
             // lblAccountIBAN
             // 
             this.lblAccountIBAN.BackColor = System.Drawing.Color.Wheat;
-            this.lblAccountIBAN.Location = new System.Drawing.Point(49, 640);
+            this.lblAccountIBAN.Location = new System.Drawing.Point(49, 633);
             this.lblAccountIBAN.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAccountIBAN.Name = "lblAccountIBAN";
             this.lblAccountIBAN.Size = new System.Drawing.Size(107, 22);
@@ -193,7 +193,7 @@
             // lblBankName
             // 
             this.lblBankName.BackColor = System.Drawing.Color.Wheat;
-            this.lblBankName.Location = new System.Drawing.Point(48, 606);
+            this.lblBankName.Location = new System.Drawing.Point(48, 599);
             this.lblBankName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBankName.Name = "lblBankName";
             this.lblBankName.Size = new System.Drawing.Size(107, 22);
@@ -202,7 +202,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(164, 639);
+            this.textBox4.Location = new System.Drawing.Point(164, 632);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(172, 22);
@@ -210,7 +210,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(164, 604);
+            this.textBox5.Location = new System.Drawing.Point(164, 597);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(172, 22);
@@ -219,7 +219,7 @@
             // btnSubmit
             // 
             this.btnSubmit.BackColor = System.Drawing.Color.Wheat;
-            this.btnSubmit.Location = new System.Drawing.Point(132, 672);
+            this.btnSubmit.Location = new System.Drawing.Point(132, 665);
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(4);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(100, 28);
@@ -234,7 +234,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::yohsin_workspace.Properties.Resources.startup_bg_greenery;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1069, 710);
+            this.ClientSize = new System.Drawing.Size(1117, 715);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
